@@ -1,7 +1,7 @@
 #include <stdio.h> 
 #define SIZE 10
 
-void bubbleSort( int  *  array, int size);    
+void bubbleSort( int  const *  array, int size);    
  
 int main(void)
 {
